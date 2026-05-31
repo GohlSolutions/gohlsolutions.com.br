@@ -1,5 +1,5 @@
 const contactTargets = {
-  email: "contato@gohlsolutions.com.br",
+  email: "solutionsgohl@gmail.com",
   whatsapp: "5565992517246",
 };
 
@@ -19,17 +19,6 @@ menuToggle.addEventListener("click", () => {
 mainNav.addEventListener("click", () => {
   mainNav.classList.remove("open");
   menuToggle.setAttribute("aria-expanded", "false");
-});
-
-document.querySelectorAll("[data-service-choice]").forEach((link) => {
-  link.addEventListener("click", () => {
-    const service = link.dataset.serviceChoice;
-    const option = document.querySelector(`input[name="service"][value="${service === "app" ? "App" : service}"]`);
-
-    if (option) {
-      option.checked = true;
-    }
-  });
 });
 
 contactForm.addEventListener("submit", (event) => {

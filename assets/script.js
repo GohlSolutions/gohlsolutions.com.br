@@ -27,19 +27,19 @@ function moneyBR(value){ return Number(value || 0).toLocaleString('pt-BR',{style
 const serviceSelect = $('#service');
 const budgetHint = $('#budgetHint');
 const budgets = {
-  'Landing Page': 250,
-  'Site Profissional': 350,
-  'Aplicativo / Sistema': 1500,
-  'Göhl Email Bot Pro': 497,
-  'Manutenção de PC': 120,
-  'Presença Online / Google Maps': 180,
-  'Outro': 0
+  'Landing Page': 'A partir de R$ 250. O orçamento final depende do escopo.',
+  'Site Profissional': 'A partir de R$ 350. O orçamento final depende do escopo.',
+  'Aplicativo / Sistema': 'A partir de R$ 1.500. O orçamento final depende do escopo.',
+  'Göhl Email Bot Pro': 'Mensal: R$ 49,90/mês por PC. Vitalício lançamento: R$ 297/PC. Vitalício oficial: R$ 497/PC. Pacote empresa: R$ 797 a R$ 997.',
+  'Organizador de Arquivos Pro': 'R$ 79,90/mês por PC ou R$ 397 vitalício por PC. Pacote empresa sob consulta.',
+  'Manutenção de PC': 'A partir de R$ 120. Valor final depende do serviço.',
+  'Presença Online / Google Maps': 'A partir de R$ 180. Valor final depende do serviço.',
+  'Outro': 'Descreva a necessidade para montarmos o orçamento.'
 };
 if (serviceSelect && budgetHint) {
   function updateBudget(){
     const v = serviceSelect.value;
-    const min = budgets[v] || 0;
-    budgetHint.textContent = min ? `Valor inicial sugerido: ${moneyBR(min)}. O orçamento final depende do escopo.` : 'Descreva a necessidade para montarmos o orçamento.';
+    budgetHint.textContent = budgets[v] || 'Descreva a necessidade para montarmos o orçamento.';
   }
   serviceSelect.addEventListener('change', updateBudget); updateBudget();
 }

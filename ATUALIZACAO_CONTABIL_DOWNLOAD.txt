@@ -1,0 +1,8 @@
+Atualização realizada:
+- Criada página contabil.html para escritórios contábeis.
+- Adicionado download do instalador em assets/downloads/Instalador_Gohl_File_Organizer_v9_1.exe.
+- Adicionado botão de download na página Sistemas e na Área Contábil.
+- Atualizado menu, rodapé, preços, contato, sitemap e script de orçamento.
+
+Observação: arquivos .exe podem exibir aviso do Windows SmartScreen se ainda não tiverem assinatura digital.
+SHA-256 do instalador: 2756311a288d9398b0900f1c935616a1b54c456e167b6f430c942ace244a52bc

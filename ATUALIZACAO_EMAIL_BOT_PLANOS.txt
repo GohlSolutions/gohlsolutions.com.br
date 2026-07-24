@@ -1,0 +1,15 @@
+Atualização Göhl Email Bot Pro
+
+Planos adicionados ao site:
+- Mensal: R$ 49,90/mês por PC
+- Vitalício lançamento: R$ 297/PC
+- Vitalício oficial: R$ 497/PC
+- Pacote empresa: R$ 797 a R$ 997 conforme quantidade de PCs, configuração e suporte
+
+Arquivos atualizados:
+- index.html
+- sistemas.html
+- precos.html
+- assets/script.js
+
+Para publicar: envie estes arquivos para o GitHub/Vercel mantendo o index.html na raiz.

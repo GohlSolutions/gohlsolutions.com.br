@@ -1,0 +1,14 @@
+Atualização aplicada no site da Göhl Solutions
+
+- Organizador de Arquivos Pro destacado na página de Sistemas.
+- Preço mensal aumentado/definido como R$ 79,90/mês por PC.
+- Opção vitalícia adicionada: R$ 397 por PC.
+- Pacote empresa sob consulta para vários computadores/setores.
+- Organizador adicionado na página inicial, tabela de preços, rodapé e formulário de contato.
+- Botões de Gmail e WhatsApp continuam funcionando pelo navegador.
+
+Para publicar:
+1. Extraia o ZIP.
+2. Envie todos os arquivos para o mesmo projeto do GitHub/Vercel.
+3. Garanta que index.html fique na raiz.
+4. Faça redeploy na Vercel.

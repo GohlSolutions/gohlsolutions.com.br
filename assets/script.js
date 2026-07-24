@@ -32,6 +32,8 @@ const budgets = {
   'Aplicativo / Sistema': 'A partir de R$ 1.500. O orçamento final depende do escopo.',
   'Göhl Email Bot Pro': 'Mensal: R$ 49,90/mês por PC. Vitalício lançamento: R$ 297/PC. Vitalício oficial: R$ 497/PC. Pacote empresa: R$ 797 a R$ 997.',
   'Organizador de Arquivos Pro': 'R$ 79,90/mês por PC ou R$ 397 vitalício por PC. Pacote empresa sob consulta.',
+  'Pacote Contábil': 'Sob consulta. Valor depende da quantidade de empresas, PCs, pastas e rotina mensal.',
+  'Nexus Contábil / Göhl Ledger AI': 'Sob consulta. Sistema contábil sob evolução para XML/NFe/NFCe/SPED, relatórios e multiempresa.',
   'Manutenção de PC': 'A partir de R$ 120. Valor final depende do serviço.',
   'Presença Online / Google Maps': 'A partir de R$ 180. Valor final depende do serviço.',
   'Outro': 'Descreva a necessidade para montarmos o orçamento.'

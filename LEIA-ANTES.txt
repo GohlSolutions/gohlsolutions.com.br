@@ -1,0 +1,21 @@
+GÖHL SOLUTIONS - SITE ESSENCIAL
+
+Para GitHub/Vercel:
+1. Envie TODO o conteúdo desta pasta para a raiz do repositório.
+2. O arquivo index.html precisa ficar direto na raiz, não dentro de outra pasta.
+3. Na Vercel, use:
+   - Framework Preset: Other
+   - Build Command: deixe vazio
+   - Output Directory: deixe vazio
+   - Install Command: deixe vazio
+4. Domínio oficial: https://gohlsolutions.com.br/
+
+Arquivos essenciais incluídos:
+- index.html
+- páginas HTML
+- assets/
+- robots.txt
+- sitemap.xml
+- CNAME
+
+Não inclui server.js, package.json, painel com backend ou arquivos extras.

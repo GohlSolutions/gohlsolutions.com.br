@@ -1,0 +1,36 @@
+GÖHL SOLUTIONS - CONFIGURAR GMAIL E WHATSAPP
+
+O site foi ajustado para não abrir mais o app de e-mail do Windows.
+
+1) Gmail
+O botão "Enviar pelo Gmail" abre direto o Gmail Web no navegador:
+https://mail.google.com/mail/
+
+E-mail configurado atualmente:
+solutionsgohl@gmail.com
+
+Para trocar o e-mail, abra:
+assets/script.js
+
+E altere a linha:
+const GOHL_EMAIL = 'solutionsgohl@gmail.com';
+
+2) WhatsApp
+O botão "Enviar pelo WhatsApp" precisa do número oficial da empresa.
+
+Abra:
+assets/script.js
+
+E troque esta linha:
+const GOHL_WHATSAPP = '5565999999999';
+
+Use somente números, com DDI e DDD.
+Exemplo para Brasil/Cuiabá:
+55 + 65 + número
+
+Fica assim:
+const GOHL_WHATSAPP = '5565SEUNUMEROAQUI';
+
+3) Depois de trocar
+Suba de novo os arquivos no GitHub/Vercel.
+O index.html deve ficar na raiz do projeto.

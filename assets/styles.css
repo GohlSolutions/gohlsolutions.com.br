@@ -244,3 +244,13 @@ img{max-width:100%;display:block}
 }
 .btn.whatsapp:hover{transform:translateY(-2px)}
 @media(max-width:560px){.form-actions{display:grid}.form-actions .btn{width:100%}}
+
+/* Área contábil e downloads */
+.compact-actions{margin-top:16px;gap:10px}
+.download-card{background:linear-gradient(180deg,rgba(12,31,56,.86),rgba(5,14,28,.86));border-color:rgba(65,231,167,.24)}
+.download-box{display:grid;gap:12px;padding:18px;margin:16px 0;border:1px solid rgba(65,231,167,.25);border-radius:20px;background:rgba(65,231,167,.06)}
+.download-box strong{font-size:1.15rem;color:#fff}
+.download-box span{color:var(--muted)}
+.checksum code{word-break:break-all;color:#9ee8ff;background:#07111f;border:1px solid var(--line);border-radius:8px;padding:2px 6px}
+.btn.whatsapp{background:linear-gradient(135deg,#25d366,#1da851);color:#03150a;box-shadow:0 12px 28px rgba(37,211,102,.18)}
+@media(max-width:560px){.download-box .btn{width:100%}}
